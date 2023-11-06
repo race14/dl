@@ -1,14 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-# Use Autoencoder to implement anomaly detection. Build the model by using: 
-a. Import required libraries 
-b. Upload / access the dataset 
-c. Encoder converts it into latent representation 
-d. Decoder networks convert it back to the original input 
-e. Compile the models with Optimizer, Loss, and Evaluation Metrics
-# In[1]:
-
-
 import keras
 from keras import layers
 
