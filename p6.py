@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 
 import tensorflow as tf
 from tensorflow.keras.applications import VGG16
