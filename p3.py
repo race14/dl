@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# ### Small Image Classification Using Convolutional Neural Network (CNN)
+# Small Image Classification Using Convolutional Neural Network (CNN)
 
 # In[1]:
 
@@ -85,11 +82,7 @@ model = models.Sequential([
 model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
-
-
 # In[14]:
-
-
 model.fit(x_train, y_train, epochs=5)
 
 
