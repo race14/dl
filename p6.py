@@ -16,10 +16,10 @@ cifar = tf.keras.datasets.cifar10
 x_train = x_train / 255.0
 x_test = x_test / 255.0
 y_train = to_categorical(y_train)
-y_t`est = to_categorical(y_test)
+y_test = to_categorical(y_test)
 
 
-base = VGG16(weights='imagenet', include_top=False, input_shape=(32, 32, 3)
+base = VGG16(weights='imagenet', include_top=False, input_shape=(32, 32, 3))
 
 
 for layer in base.layers:
